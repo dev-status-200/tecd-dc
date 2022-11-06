@@ -1,0 +1,43 @@
+.home-styles{
+    .bg{
+        background-image: url("../public/banner3.png");
+
+        /* Full height */
+        height: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .btn-custom{
+        background-color: #366caf;
+        color: white;
+        border: none;
+        padding: 10px 50px 10px 50px;
+        border-radius: 25px;
+        font-weight: 400;
+    }
+
+    .btn-custom:hover{
+        transition-duration: 300ms;
+        background-color: #1c385b;
+    }
+    .mobile-heading{
+        font-weight: 500;
+        color: #366caf;
+        text-shadow: -2px 4px 3px rgba(247, 247, 247, 0.99);
+        line-height: 1.1;
+        font-size:45px;
+    }
+
+    .text-bg{
+        position:absolute;
+        top:0%;
+        width:100%;
+        text-align:center;
+        background-color:rgba(255, 255, 255, 0.692);
+        height:100%;
+        padding-top:50%;
+    }
+}
